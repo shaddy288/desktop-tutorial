@@ -1,0 +1,686 @@
+/****************************
+    MAIN CSS*****************/
+
+.main-icon .iconbtn {
+    color: #fff;
+    padding: 10px;
+}
+.uppar-main {
+    color: #fff;
+}
+.upper-social-icons a {
+    color: #fff;
+}
+.main-icon i {
+    background: #000;
+    color: #fff;
+    padding: 50px;
+}
+.main-nav .upper-social-icons  {
+    display: flex;
+    list-style: none;
+}
+.main-nav .upper-social-icons li {
+    padding: 10px 15px;
+}
+.main-nav .upper-social-icons li a {
+    transition: 0.5s ease all;
+}
+.main-nav .upper-social-icons li a:hover {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    color: #000;
+    background: #fff;
+}
+.main-nav .upper-social-icons li a i {
+    font-size: 18px;
+    margin: 10px;
+} 
+.main-nav .upper-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 92px;
+    padding: 0 15px;
+}
+.main-nav .mobile-number {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.main-nav .main-icon i {
+    padding: 0 10px;
+
+    transition: .5s ease;
+}
+
+.main-nav .logo-white {
+    width: 70px;
+}
+.main-nav .navbar-light {
+    background-color: #ffffff;
+    padding: 0px;
+}
+.main-nav .navbar-light .navbar-brand {
+    width: 110px;
+    height: 74px;
+    text-align: center;
+    line-height: 74px;
+    padding: 0;
+    background: #1d1d21;
+}
+.main-nav .navbar-nav .nav-item {
+    margin: 0 15px 0 0;
+}
+.main-nav .navbar-nav .nav-item a {
+    padding: 10px; 
+    color: black;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.main-nav .image {
+    background-image: url("../images/banner1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center -100px;
+    width: 100%;   
+}
+.main-nav .make {
+    padding: 80px 0 0 0;
+}
+.main-nav .make h1 {
+    font-size: 50px;
+}
+.main-nav .make p {
+    font-size: 20px;
+}
+.make1 {
+    padding: 40px;
+}
+.main-nav .web-site {
+    background-color: #dbd527;
+    padding: 30px 20px;
+    color: white;
+}
+.main-nav .main {
+    font-size: 50px;
+}
+.main-nav .button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 7px 30px;
+    line-height: 1.8em;
+    transition: 0.5s all ease;
+}
+.main-nav .button:hover {
+    background-color: white;
+    color: black;
+}
+.main-nav #myid .container-fluid {
+    padding: 15px 0 60px;
+}
+.colorHeader {
+    background-color: black;
+} 
+/********side menu*******/
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+.digital {
+    padding: 100px 0;
+    background: #fff;
+    transform: skewY(3deg);
+    margin-top: -35px;
+}
+.digital .container {
+    overflow: hidden;
+}
+.digital .bg-color {
+    position: relative;
+    background: #e8d716;
+    padding: 50px 0 35px;
+}
+.digital .bg-color .pot-img {
+    position: absolute;
+    bottom: -200px;
+    left: 300px;
+    z-index: 5;
+}
+.digital .bg-color .container {
+    transform: skewY(-3deg);
+}
+.digital h1{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+.digital h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+}
+.digital p{
+    color: white;
+    width: 70%;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.digital h2 span {
+    color: white;
+    padding-left: 8px;
+}
+.digital i {
+    font-size: 110px;
+    color: white;
+}
+.digital .icon-holder {
+    position: absolute;
+    left: 700px;
+    bottom: 68px;
+}
+.digital .icon-holder1 {
+    position: relative;
+    left: 1000px;
+    bottom: 65px;
+}
+.digital .text1 {
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    left: 0px;
+    bottom: 175px;
+    font-weight: 300px;
+    font-family: 'Oswald', sans-serif;
+}
+.digital .text2 {
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    left: 0px;
+    bottom: 177px;
+    font-family: 'Oswald', sans-serif;
+}
+.digital .text3 {
+    color: black;
+    font-size: 22px;
+    position: relative;
+    left: 0px;
+    bottom: 40px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+.digital .text4 {
+    color: black;
+    font-size: 22px;
+    position: relative;
+    bottom: 43px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
+.animate__heartBeat {
+    --animate-duration: 5s;
+  }
+.fisrt-button {
+    color: white;
+    background-color: black;
+    border-radius: 17px;
+    font-size: 14px;
+    padding: 7px 30px;
+    line-height: 1.8em;
+    margin-top: 30px;
+    transition: 00.5s ease;
+}
+.fisrt-button:hover{
+    background-color: white;
+}
+.second-digital i {
+    padding-left: 50px;
+}
+.digital .p1 {
+        background-color: blueviolet;
+        font-size: 15px;
+        font-weight: 600;
+}
+.baars {
+    padding-top: 30px;
+}
+.baars .p2 {
+    margin-top: 18px;
+}
+.baars .baar {
+    background-color: #dbd527 ;
+}
+.baars  span {
+    position: absolute;
+    left: 71%;
+    top: 5%;
+}
+i:hover{
+    transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);   
+}
+.second-left {
+    text-align: left;
+    padding-top: 20px;
+    text-align: end;
+}
+.second-left .main-part {
+    color:#5bbdbb;
+    font-size: px;
+}
+.second-left .point {
+    padding-top: 30px;
+}
+.second-left h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.team {
+    padding: 120px 120px; 
+    background-color: #202020;
+    margin-top: 10%;
+    color: white;
+    transform: skewY(3deg);
+}
+.team .team-bg {
+    transform: skewY(-3deg);
+}
+.team .team-bg h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.team p {
+    margin-top: 21px;
+    font-weight: 600;
+}
+.team img {
+    background-color:#e8d716;
+    height: 250px;
+    width: 250px;
+    border-radius: 120px;
+    margin-left: 60px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 250%;
+}
+.team .img1 {
+    padding-top: 30px;
+}
+.team .img2 {
+    padding-top: 80px;
+}
+.team .img3 {
+    padding-top: 130px;
+}
+.team .tag {
+    margin: 31px 0px 0px 100px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.owl-prev {
+    left: -30px;    
+}
+.owl-next {
+    right: 0;
+}
+.owl-prev , .owl-next {
+    position: absolute;
+    top:30%;
+}
+.owl-prev span , .owl-next span {
+    font-size: 40px;
+    color: ffff;
+    /* border: 5px solid #fff; */
+    text-align: center;
+    padding: 10px;
+    border-radius: 100%;
+}
+.work .haed  {
+    padding: 0px;
+    height: 10%;
+}
+.work .row {
+    margin-top: 15%;
+}
+.work a {
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .5s ease all;
+    margin-bottom: 14px;
+}
+.work a:hover {
+    cursor: pointer;
+    border-bottom: 5px solid #e8d716;
+}
+.work h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+.work li {
+    margin-top: 20px;
+}
+.work .working-img {
+    position: relative;
+}
+.work .working-img {
+    position: absolute;
+    left: 0px;
+}
+.work .working-img .col-md-6 {
+    top: 20px;
+    padding: 0px;
+}
+.work .working-img .second-img {
+    top: 50px;
+}
+.work .working-img {
+    position: relative;
+    margin: 10px auto;
+}
+.work .working-img .box-content:hover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.Satisfied {
+    margin-top: 100px;
+    transform: skewY(3deg);
+    
+}
+.Satisfied .row {
+    transform: skewY(-3deg);
+}
+.Satisfied .Satisfied-bg {
+    background-color: #e8d716;
+    padding: 180px;
+}
+.Satisfied h1 {
+    font-weight: 600;
+    font-size: 50px;
+}
+.Satisfied span {
+    font: 600;
+    color: #fff;
+}
+.Satisfied i {
+    font-weight: 600;
+    font-size: 32px;
+    margin: 50px 200px;
+    color: white;    
+}
+.Satisfied p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.Satisfied img {
+    border-radius: 80px;
+    margin: 0px 150px;
+}
+.Satisfied .name {
+    margin: 24px 171px;
+    font-size: 18px;
+    color: black;
+}
+.Satisfied .second {
+        padding: 60px;
+}
+.slick-prev {
+    display: none;
+}
+.slick-next {
+    display: none;
+}
+.larger-logo {
+    padding: 7.5rem 0;
+    transform: skewY(3deg);
+}
+.larger-logo .container {
+    transform: skewY(-3deg);
+}
+.latets {
+    padding-top: 200px;
+    padding-bottom: 250px;
+    background-color: #202020;
+    transform: skewY(3deg);
+}
+.latets .container {
+    transform: skewY(-3deg);
+}
+.latets h1 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.latets h2 {
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.latets p {
+    font-size: 16px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+}
+.latets h2 {
+    color:#dbd527;
+} 
+.latets span {
+    color: white;
+}
+.latets .last-button {
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 7px 30px;
+    line-height: 1.8em;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #ffffff;
+    transition: 0.5s all ease;
+}
+.latets .last-button:hover {
+    background-color:#e8d716;
+    border: none;
+    color: #000 ;
+}
+.latets .img10 {
+    position: absolute;
+    left: 400px;
+    z-index: 5;
+    margin-top: 470px;
+}
+   
+.latets .main-screen {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.latets .under-sc {
+    position: absolute;
+    top: 32px;
+    left: 60px;
+}
+.content {
+    background-color: #dbd527;
+}
+.content i {
+    font-size: 150px;
+    position: absolute;
+    top: 150px;
+    left: 170px;
+}
+.content h1  {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+}
+.content p {
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+}
+.test-area .icons {
+    font-size: 30px;
+    padding-left: 30%;
+    padding : 30px 30px;
+}
+.test-area .header {
+    font-size: 100px;   
+}
+.test-area .test-emo {
+    border: 1px solid black;
+    border-radius: 90px;
+}
+.test-area .text {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    color: #ffffff;
+    margin: 0 0 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2b2b2b;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: .5px;
+}
+.contact-sec {
+    margin-top: 180px;
+}
+.contact-sec h4 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #1d1d21;
+    font-family: oswald;
+}
+.contact-sec .form-control  {
+    border-radius: 0px;
+    border: solid 2px #eceef2;
+    font-size: 16px;
+    height: 50px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.contact-sec .contact_btn {
+    background-color: #e8d716;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 35px;
+    transition: 1s ease;
+}
+.contact-sec .contact_btn:hover {
+    background-color: black;
+}
+.footer-style {
+    padding: 5rem 0;
+    margin-left: 40px;
+}
+.sicon ul li a {
+    font-size: 16px;
+}
+.sicon ul li i {
+    margin: 0 10px 0px 0;
+    width: 0;
+    height: 0;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50px;
+    padding-left: 50px;
+    color: #000;
+    transition: .2s ease;
+    font-size: 25px;
+}
+.sicon ul li i:hover {
+    color: #e8d716;
+}
+.contact-details li {
+    list-style: none;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    color: #a4dbda;
+}
+.contact-details span {
+    color: #202020;
+    opacity: .8;
+    list-style: none;
+    margin-bottom: 22px;
+    font-size: 16px;
+    display: flex;
+}
+.contact-details .heading {
+    text-align: center;
+}
+.contact-details .text span {
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+    .navbar-toggler {
+        border: none;
+        color: black;
+    }
+  }
